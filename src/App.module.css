@@ -1,0 +1,26 @@
+.header {
+	min-height: 30%;
+}
+
+.main-content {
+	min-height: 65%;
+	position: relative;
+}
+
+.contact {
+	font-size: 25px;
+	font-family: 'Montez', cursive;
+	animation: 
+		bottom2Top 3s,
+		fadeIn 5s;
+}
+
+@keyframes bottom2Top {
+	from {margin-top: 1000px;}
+	to {margin-top: 0px;}
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}

@@ -1,0 +1,9 @@
+.soviet {
+	color: red;
+}
+.soviet::before {
+	content: "☭";
+}
+.soviet::after {
+	content: "☭";
+}
