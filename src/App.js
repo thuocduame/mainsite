@@ -43,9 +43,9 @@ export default function(){
 		contactArea = (
 			<div className={`${styles["contact"]}`}>
 				<p>The Site Owner: tqlsdl the "Thuocduame"</p>
-				<p>Contact: <a style={{'text-decoration':'none',color:'#ff0066'}} href="mailto:tqlsdl@thuocduame.cf">Email me!!</a></p>
+				<p>Contact: <a style={{'textDecoration':'none',color:'#ff0066'}} href="mailto:tqlsdl@thuocduame.cf">Email me!!</a></p>
 				<p>Current Project: <a href="https://chatthuocduame.herokuapp.com/" target="_blank" rel="noopener noreferrer">chat.thuocduame</a></p>
-				<div style={{'font-size':'25px','font-family': `'Parisienne', cursive`}}>
+				<div style={{'fontSize':'25px','fontFamily': `'Parisienne', cursive`}}>
 					Long Live the <Soviet>Soviet</Soviet> Motherland!!
 				</div>
 			</div>
